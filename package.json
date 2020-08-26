@@ -59,5 +59,8 @@
     "lint": "npm run lint:styles && npm run lint:scripts",
     "lint:scripts": "npx eslint ./app/scripts ./test -f table",
     "lint:styles": "npx stylelint ./app/styles/*.scss -f verbose"
+  },
+  "dependencies": {
+    "npx": "^10.2.2"
   }
 }
